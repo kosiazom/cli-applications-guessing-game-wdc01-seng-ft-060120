@@ -9,9 +9,7 @@ def run_guessing_game
   return "Goodbye!"
   
   elsif input.to_i != ran_num
-  puts 
-  
-  
+
   else 
    return "Goodbye"
   end
