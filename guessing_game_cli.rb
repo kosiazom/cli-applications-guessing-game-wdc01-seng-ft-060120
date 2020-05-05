@@ -11,7 +11,6 @@ def run_guessing_game
   elsif input == "exit"
   return "Goodbye"
 else 
-   input == "exit"
-   return "Goodbye!"
+   
   end
 end
