@@ -11,5 +11,6 @@ def run_guessing_game
   elsif input.to_i != ran_num
  puts "Sorry! The computer guessed #{ran_num}."
  
+ #dont need to else portion because the elsif covered it and else doesnt take a condiition
   end
 end
