@@ -6,6 +6,7 @@ def run_guessing_game
   elsif user_input != rand(1..6)
   puts "Sorry! The computer guessed ..."
 else 
-  
+   user_input = "exit"
+   return "Goodbye!"
   end
 end
